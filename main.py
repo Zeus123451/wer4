@@ -86,7 +86,7 @@ from aiogram.types import CallbackQuery
 import random
 
 
-bot = Bot(token='6258839970:AAEIuBAdRLe3J7LZ57l3bcXm8y9yPmDHybY')
+bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 @dp.message_handler(commands=['start'])
 async def process_start_command(message: types.Message):
